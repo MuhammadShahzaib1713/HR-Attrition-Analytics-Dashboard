@@ -19,7 +19,6 @@ The dashboard is built around five core questions:
 To answer these, I created KPI cards for headline numbers (total employees, total attrition, attrition rate), bar and donut charts for department and role breakdowns, a satisfaction matrix to cross-reference ratings with attrition counts, and slicers to let the user filter by department, gender, age group, and education field.
 
 
-
 Key Findings
 
 - The overall attrition rate sits at 16.1% — 237 employees out of 1,470
@@ -28,8 +27,6 @@ Key Findings
 - Employees aged 26–35 left at the highest rate early career restlessness is real
 - Employees with low job satisfaction (rating 1) showed nearly double the attrition of those rated 4
 - Lower monthly income combined with poor work-life balance was the strongest predictor of turnover
-
-
 
 DAX Measures Used
 
@@ -42,16 +39,11 @@ Attrition Rate = DIVIDE([Total Attrition], [Total Employees], 0)
 
 Active Employees = [Total Employees] - [Total Attrition]
 
-
-
-
  Tools Used
 
 - Power BI Desktop (data modeling, DAX, visualization)
 - Power Query (data cleaning and transformation)
 - IBM HR Analytics Dataset — sourced from Kaggle
-
-
 
  Files in This Repository
 
@@ -62,8 +54,6 @@ HR-Attrition-Analytics-Dashboard/
 ├── Dashboard_Screenshot.png        Dashboard preview
 └── README.md                       Project documentation
 
-
-
  How to Open
 
 1. Download the repository
@@ -71,10 +61,6 @@ HR-Attrition-Analytics-Dashboard/
 3. If the data doesn't load, go to Transform Data > Data Source Settings and point it to `HR_Analytics.csv`
 4. Use the slicers on the dashboard to filter by department, gender, age, or education
 
-
 About Me
 
 Muhammad Shahzaib — Biotechnology graduate with a focus on data analytics. I'm building this portfolio while preparing for postgraduate opportunities, using real datasets to develop practical skills in Excel, Power BI, and MySQL.
-
-LinkedIn: 
-GitHub:
